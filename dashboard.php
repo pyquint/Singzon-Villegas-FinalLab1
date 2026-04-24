@@ -1,4 +1,7 @@
 <?php
+// default timezone is UTC, I'll just hardcode it to PH time
+date_default_timezone_set('Asia/Manila');
+
 define("DATE_FORMAT", "F d, Y - h:i A");
 
 session_start();
